@@ -12,8 +12,11 @@ int main(void)
 	for (ascii_number = 48; ascii_number <= 57; ascii_number++)
 	{
 		putchar(ascii_number);
-		putchar(44);
-		putchar(32);
+		if (ascii_number != 57)
+		{
+			putchar(44);
+			putchar(32);
+		}
 	}
 	putchar('\n');
 	return (0);
