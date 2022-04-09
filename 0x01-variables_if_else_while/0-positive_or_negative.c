@@ -4,6 +4,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+
+/**
+ * main - indicates if a number is positive or negative
+ *
+ * RETURN: returns the value 0
+ */
 int main(void)
 {
 	int n;
