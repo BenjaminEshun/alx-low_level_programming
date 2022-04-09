@@ -8,7 +8,7 @@
 /**
  * main - indicates if a number is positive or negative
  *
- * RETURN: returns the value 0
+ * Return: returns the value 0
  */
 int main(void)
 {
