@@ -17,17 +17,15 @@ int main(void)
 			{
 				for (l = 48; l <= 57; l++)
 				{
-					if (i + j < k + l && i <= k && j <= l)
+					if (i + j < k + l && i <= k)
 					{
 						putchar(i);
 						putchar(j);
 						putchar(32);
 						putchar(k);
 						putchar(l);
-
 						if (i == 57 && j == 56 && k == 57 && l == 57)
 							break;
-
 						putchar(44);
 						putchar(32);
 					}
