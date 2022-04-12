@@ -16,4 +16,7 @@ int _islower(int c);
 /* Function prototype for 4-isalpha.c */
 int _isalpha(int c);
 
+/* Function prototpe for 5-sign.c */
+int print_sign(int n);
+
 #endif
