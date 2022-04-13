@@ -25,4 +25,7 @@ int _abs(int);
 /* Function prototype for 7-print_last_digit.c */
 int print_last_digit(int);
 
+/* Function prototype for 10-add.c */
+int add(int, int);
+
 #endif
