@@ -18,12 +18,12 @@ void times_table(void)
 			
 			if (result > 9)
 			{
-				_putchar(result/10 + '0');
-				_putchar(result%10 + '0');
+				_putchar(result / 10 + '0');
+				_putchar(result % 10 + '0');
 			}
 			else
 			{
-				_putchar(result%10 + '0');
+				_putchar(result % 10 + '0');
 			}
 
 			if (j != 9)
