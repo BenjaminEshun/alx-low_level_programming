@@ -25,6 +25,9 @@ int _abs(int);
 /* Function prototype for 7-print_last_digit.c */
 int print_last_digit(int);
 
+/* Function prototype for 9-times_table.c */
+void times_table(void);
+
 /* Function prototype for 10-add.c */
 int add(int, int);
 
