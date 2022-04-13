@@ -28,4 +28,7 @@ int print_last_digit(int);
 /* Function prototype for 10-add.c */
 int add(int, int);
 
+/* Function prototype for 11-print_to_98.c */
+void print_to_98(int n);
+
 #endif
