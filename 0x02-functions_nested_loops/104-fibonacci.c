@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	unsigned long long int i = 0, j = 1, result;
+	unsigned long int i = 0, j = 1, result;
 	int count = 1;
 
 	while (count <= 98)
@@ -15,7 +15,7 @@ int main(void)
 		result = i + j;
 		i = j;
 		j = result;
-		printf("%llu", result);
+		printf("%lu", result);
 
 		if (count < 98)
 		{
