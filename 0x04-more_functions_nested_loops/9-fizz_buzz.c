@@ -15,13 +15,24 @@ int main(void)
 	for (num = 1; num <= 100; num++)
 	{
 		if (num % 3 == 0 && num % 5 == 0)
+		{
 			printf("%s ", multiples_of_3_and_5);
+		}
 		else if (num % 3 == 0)
+		{
 			printf("%s ", multiples_of_3);
+		}
 		else if (num % 5 == 0)
-			printf("%s ", multiples_of_5);
+		{
+			printf("%s", multiples_of_5);
+
+			if (num != 100)
+				printf(" ");
+		}
 		else
+		{
 			printf("%d ", num);
+		}
 	}
 	printf("\n");
 	return (0);
