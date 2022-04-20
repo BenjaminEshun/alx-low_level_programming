@@ -11,9 +11,10 @@ void puts2(char *str)
 {
 	int string_length = strlen(str), i;
 
-	for (i = 0; i < string_length - 1; i += 2)
+	for (i = 0; i <= string_length - 1; i++)
 	{
-		_putchar(str[i]);
+		if (i % 2 == 0 || str[i] == '.')
+			_putchar(str[i]);
 	}
 	_putchar('\n');
 }
