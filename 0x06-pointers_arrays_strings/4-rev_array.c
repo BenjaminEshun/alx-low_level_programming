@@ -1,4 +1,5 @@
 #include "main.h"
+#define size n
 
 /**
  * reverse_array - function that reverses the content of an array of integers
@@ -9,13 +10,12 @@
  */
 void reverse_array(int *a, int n)
 {
+	int b[size];
 	int i;
-	int *p = &n;
-	int b[*p];
 
-	a = a + *p - 1;
+	a = a + size - 1;
 
-	for (i = 0; i < *p; i++)
+	for (i = 0; i < size; i++)
 	{
 		b[i] = *a;
 		a--;
@@ -23,7 +23,7 @@ void reverse_array(int *a, int n)
 
 	a = a + 1;
 
-	for (i = 0; i < *p; i++)
+	for (i = 0; i < size; i++)
 	{
 		*a = b[i];
 		a++;
