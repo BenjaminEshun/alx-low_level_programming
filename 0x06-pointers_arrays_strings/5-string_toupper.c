@@ -9,6 +9,16 @@
  */
 char *string_toupper(char *str)
 {
-	strupr(str);
+	int i, len;
+
+	len = strlen(str);
+
+	for (i = 0; i < len; i++)
+	{
+		if (*str >= 97 && *str <= 122)
+			*str = *str - 32;
+		str++;
+	}
+	str = str - len;
 	return (str);
 }
